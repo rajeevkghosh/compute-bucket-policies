@@ -13,5 +13,5 @@ module "tfplan-functions" {
 
 policy "enforce-name-prefix" {
     source = "./name-prefix-check-policy.sentinel"
-    enforcement_level = "advisory"
+    enforcement_level = "soft-mandatory"
 }
