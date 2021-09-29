@@ -6,12 +6,12 @@ variable "project" {
 variable "bucket-name" {
   description = "bucket name"
   type        = string
-  default  = "rajeev-bucket-29"
+  default  = "dev-bucket-29"
 }
 variable "instance-name" {
   description = "Name of Instance"
   type        = string
-  default  = "instance-29"
+  default  = "dev-instance-29"
 }
 variable "access_token" {
   description = "access token"
