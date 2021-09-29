@@ -15,3 +15,9 @@ policy "enforce-name-prefix" {
     source = "./name-prefix-check-policy.sentinel"
     enforcement_level = "soft-mandatory"
 }
+    
+policy "enforce-machine-type" {
+    source = "./restrict_machine_type_policy.sentinel"
+    enforcement_level = "soft-mandatory"
+}
+
